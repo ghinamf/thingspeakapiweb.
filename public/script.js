@@ -8,7 +8,7 @@ setInterval(() => {
     .then((res) => {
       var field = JSON.stringify(res.feeds[0]);
       var obj = JSON.parse(field);
-      document.getElementById("field-1").innerHTML = obj.field1;
+      document.getElementById("MOTION").innerHTML = obj.field1;
       document.getElementById("LDR").innerHTML = obj.field2;
     });
 }, 1000);
